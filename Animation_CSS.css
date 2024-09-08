@@ -1,0 +1,126 @@
+#myid1 {
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
+  /* border-radius: 50%; */
+  background-color: rgb(232, 205, 255);
+  border: 2px solid rgb(190, 123, 241);
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  animation-name: colorAnimate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes colorAnimate {
+  from {
+    left: 50px;
+  }
+  to {
+    left: 1200px;
+  }
+}
+
+#myid2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
+  /* border-radius: 50%; */
+  background-color: rgb(255, 247, 205);
+  border: 2px solid rgb(241, 215, 109);
+  position: absolute;
+  top: 160px;
+  left: 30px;
+  animation-name: colorAnimate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes colorAnimate {
+  from {
+    left: 50px;
+  }
+  to {
+    left: 1200px;
+  }
+}
+#myid3 {
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
+  /* border-radius: 50%; */
+  background-color: rgb(205, 225, 255);
+  border: 2px solid rgb(134, 191, 244);
+  position: absolute;
+  top: 290px;
+  left: 100px;
+  animation-name: colorAnimate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes colorAnimate {
+  from {
+    left: 50px;
+  }
+  to {
+    left: 1200px;
+  }
+}
+#myid4 {
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
+  /* border-radius: 50%; */
+  background-color: rgb(205, 255, 213);
+  border: 2px solid rgb(134, 244, 149);
+  position: absolute;
+  top: 420px;
+  left: 100px;
+  animation-name: colorAnimate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes colorAnimate {
+  from {
+    left: 50px;
+  }
+  to {
+    left: 1200px;
+  }
+}
+#myid5 {
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
+  /* border-radius: 50%; */
+  background-color: rgb(255, 205, 205);
+  border: 2px solid rgb(244, 134, 134);
+  position: absolute;
+  top: 550px;
+  left: 100px;
+  animation-name: colorAnimate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes colorAnimate {
+  from {
+    left: 50px;
+  }
+  to {
+    left: 1200px;
+  }
+}
